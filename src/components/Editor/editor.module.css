@@ -1,0 +1,49 @@
+.container{
+    min-width: 550px;
+    min-height: 450px;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding-top: 5px;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.heading{
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.heading .section{
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+    font-size: 1 rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.heading .active {
+    border-bottom: 2px solid rgb(81, 179, 236);
+    color: rgb(81, 179, 236)
+}
+
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.detail .row{
+    display: flex;
+    gap: 20px;
+}
+
+.detail .row > div{
+    flex: 1;
+}
